@@ -13,6 +13,12 @@
 		F6183D941E5A7B6A00567B6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6183D921E5A7B6A00567B6F /* Main.storyboard */; };
 		F6183D961E5A7B6A00567B6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6183D951E5A7B6A00567B6F /* Assets.xcassets */; };
 		F6183D991E5A7B6A00567B6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6183D971E5A7B6A00567B6F /* LaunchScreen.storyboard */; };
+		F6183DA61E5A7BD500567B6F /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6183DA51E5A7BD500567B6F /* LoginView.m */; };
+		F6183DAD1E5A7CA300567B6F /* BMLineCumstomDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = F6183DAA1E5A7CA300567B6F /* BMLineCumstomDefault.m */; };
+		F6183DAE1E5A7CA300567B6F /* UIView+BMLine.m in Sources */ = {isa = PBXBuildFile; fileRef = F6183DAC1E5A7CA300567B6F /* UIView+BMLine.m */; };
+		F6183DB51E5A7CE000567B6F /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = F6183DB21E5A7CE000567B6F /* UITableView+SDAutoTableViewCellHeight.m */; };
+		F6183DB61E5A7CE000567B6F /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F6183DB41E5A7CE000567B6F /* UIView+SDAutoLayout.m */; };
+		F6183DB91E5A7D5200567B6F /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F6183DB81E5A7D5200567B6F /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,20 @@
 		F6183D951E5A7B6A00567B6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6183D981E5A7B6A00567B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6183D9A1E5A7B6A00567B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6183DA41E5A7BD500567B6F /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		F6183DA51E5A7BD500567B6F /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		F6183DA81E5A7CA300567B6F /* BMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMDefines.h; sourceTree = "<group>"; };
+		F6183DA91E5A7CA300567B6F /* BMLineCumstomDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMLineCumstomDefault.h; sourceTree = "<group>"; };
+		F6183DAA1E5A7CA300567B6F /* BMLineCumstomDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMLineCumstomDefault.m; sourceTree = "<group>"; };
+		F6183DAB1E5A7CA300567B6F /* UIView+BMLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BMLine.h"; sourceTree = "<group>"; };
+		F6183DAC1E5A7CA300567B6F /* UIView+BMLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BMLine.m"; sourceTree = "<group>"; };
+		F6183DB01E5A7CE000567B6F /* SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAutoLayout.h; sourceTree = "<group>"; };
+		F6183DB11E5A7CE000567B6F /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		F6183DB21E5A7CE000567B6F /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		F6183DB31E5A7CE000567B6F /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		F6183DB41E5A7CE000567B6F /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		F6183DB71E5A7D5200567B6F /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		F6183DB81E5A7D5200567B6F /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,9 @@
 		F6183D881E5A7B6A00567B6F /* GSLLoginBlock */ = {
 			isa = PBXGroup;
 			children = (
+				F6183DAF1E5A7CE000567B6F /* SDAutoLayout */,
+				F6183DA71E5A7CA300567B6F /* BMLines */,
+				F6183DA01E5A7BA600567B6F /* LoginBlock */,
 				F6183D8C1E5A7B6A00567B6F /* AppDelegate.h */,
 				F6183D8D1E5A7B6A00567B6F /* AppDelegate.m */,
 				F6183D8F1E5A7B6A00567B6F /* ViewController.h */,
@@ -77,6 +100,41 @@
 				F6183D8A1E5A7B6A00567B6F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6183DA01E5A7BA600567B6F /* LoginBlock */ = {
+			isa = PBXGroup;
+			children = (
+				F6183DA41E5A7BD500567B6F /* LoginView.h */,
+				F6183DA51E5A7BD500567B6F /* LoginView.m */,
+			);
+			path = LoginBlock;
+			sourceTree = "<group>";
+		};
+		F6183DA71E5A7CA300567B6F /* BMLines */ = {
+			isa = PBXGroup;
+			children = (
+				F6183DA81E5A7CA300567B6F /* BMDefines.h */,
+				F6183DA91E5A7CA300567B6F /* BMLineCumstomDefault.h */,
+				F6183DAA1E5A7CA300567B6F /* BMLineCumstomDefault.m */,
+				F6183DAB1E5A7CA300567B6F /* UIView+BMLine.h */,
+				F6183DAC1E5A7CA300567B6F /* UIView+BMLine.m */,
+			);
+			path = BMLines;
+			sourceTree = "<group>";
+		};
+		F6183DAF1E5A7CE000567B6F /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				F6183DB71E5A7D5200567B6F /* UIView+Extension.h */,
+				F6183DB81E5A7D5200567B6F /* UIView+Extension.m */,
+				F6183DB01E5A7CE000567B6F /* SDAutoLayout.h */,
+				F6183DB11E5A7CE000567B6F /* UITableView+SDAutoTableViewCellHeight.h */,
+				F6183DB21E5A7CE000567B6F /* UITableView+SDAutoTableViewCellHeight.m */,
+				F6183DB31E5A7CE000567B6F /* UIView+SDAutoLayout.h */,
+				F6183DB41E5A7CE000567B6F /* UIView+SDAutoLayout.m */,
+			);
+			path = SDAutoLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +209,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6183DB91E5A7D5200567B6F /* UIView+Extension.m in Sources */,
+				F6183DB51E5A7CE000567B6F /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				F6183D911E5A7B6A00567B6F /* ViewController.m in Sources */,
+				F6183DB61E5A7CE000567B6F /* UIView+SDAutoLayout.m in Sources */,
 				F6183D8E1E5A7B6A00567B6F /* AppDelegate.m in Sources */,
 				F6183D8B1E5A7B6A00567B6F /* main.m in Sources */,
+				F6183DAE1E5A7CA300567B6F /* UIView+BMLine.m in Sources */,
+				F6183DAD1E5A7CA300567B6F /* BMLineCumstomDefault.m in Sources */,
+				F6183DA61E5A7BD500567B6F /* LoginView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

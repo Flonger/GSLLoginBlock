@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "LoginView.h"
+
 
 @interface ViewController ()
 
@@ -17,6 +19,25 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor lightGrayColor];
+    //调用方式
+    LoginView * lv = [LoginView new];
+    lv.makeCenter(self.view.center.x, self.view.center.y)
+    .makeSize(250,220)
+    .makeBtnColor([UIColor greenColor])
+    .makeTitle(@"登录")
+    .makeDescString(@"请输入您的手机号码")
+    .showCodeBtn(NO)
+    .setBtnTitle(@"下一步")
+    .setTextMode(textPhoneField)
+    .toView(self.view);
+    
+    lv.nextClick = ^{
+        NSLog(@"下一步");
+    };
+    
+    
+    
 }
 
 
